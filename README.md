@@ -109,7 +109,26 @@ Now visit: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs) for the Swag
 | POST   | `/itineraries/`              | Create a new itinerary                |
 | GET    | `/itineraries/`              | Get all itineraries                   |
 | GET    | `/itineraries/{id}`          | Get itinerary by id                   |
-| GET    | `/recommendations/{nights}`  | Get recommended itinerary by duration |
+| GET    | `/recommendations/{duration}`  | Get recommended itinerary by duration |
+
+---
+
+## 📸 Screenshots
+
+### 📘 Swagger UI
+![Swagger UI](dashboard.PNG)
+
+### 🔍 Itinerary JSON Response for GET /itenararies - All Itenararies
+![Sample Response](getall.PNG)
+
+### 🔍 Itinerary JSON Response for GET /itenararies/{id} - Itenarary based on id
+![Sample Response](getbyid.PNG)
+
+### 🔍 Itinerary JSON Response for POST /itenararies - Creating a new itenarary
+![Sample Response](post.PNG)
+
+### 🔍 Itinerary JSON Response for GET /recommendations{duration} - Recommendation of itenararies based on the duration
+![Sample Response](recommendation.PNG)
 
 ---
 
