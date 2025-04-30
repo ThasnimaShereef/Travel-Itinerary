@@ -46,9 +46,8 @@ travel-itinerary-backend/
 │   ├── schemas.py             # Pydantic schemas for validation
 │   ├── seed_data.py           # Predefined itinerary data
 │   └── routes/                # API route definitions
-│       ├── itinerary.py       # CRUD routes for itineraries
-│       └── recommendation.py  # Routes for recommended trips
-│
+│       ├── itineraries.py       # CRUD routes for itineraries
+│       
 ├── requirements.txt           # Project dependencies
 ├── README.md                  # Project documentation
 ├── .gitignore                 # Files to ignore in Git
